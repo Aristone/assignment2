@@ -1,0 +1,118 @@
+*,
+*::before. *::after {
+    
+    box-sizing: border-box;
+
+}
+
+html {
+    
+    background-color: #4B91CD;
+
+}
+
+body {
+    
+    display: inline-table;
+    color: white;
+    font-size: .6em;
+    max-width: 755px;
+
+}
+
+input {
+
+    color: white;
+    background-color: #4B91CD;
+    border: white solid 2px;   
+    width: 210px;
+    height: 20px;
+    margin: 0 0 8px 0;
+    text-indent: 5px;
+
+}
+
+textarea {
+
+    background-color: #4B91CD;
+    border: solid white 2px;
+    padding: 0 24px;
+    width: 163px
+
+}
+
+select {
+
+    color: white;
+    background-color: #4B91CC;
+    border: #96A5B3 solid 1px;
+    width: 217px;
+    height: 20px;
+    
+}
+
+::-webkit-input-placeholder {
+
+    color: #235D96;
+    font-style: italic;
+
+}
+
+label {
+
+    position:inherit;
+    font-size: 105%;
+    float: left;
+    margin: 15px 0px 5px -60px;
+    width: 120px;
+    font-family: Helvetica, Sans-Serif;
+
+}
+
+.selected {
+
+    color: #2F4F4F;
+
+}
+
+.placeholder {
+
+    color: #2F4F4F;
+    text-decoration: italic;
+
+}
+
+.container {
+
+    display: webkit-flex;
+    display: flex;
+
+}
+
+.flex1 {
+
+    display: flexbox;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-align-items: center;
+    vertical-align: center;
+    
+}
+
+.flex2 {
+
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-align-items: center;
+    vertical-align: center;
+    
+}
+
+.flex3 {
+
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-align-items: center;
+    vertical-align: center;
+    
+}
